@@ -8,16 +8,15 @@
 	.top .tl li{float:left;margin-right:15px;height:40px;}
 	.top .tl li a{display:block;margin-top:10px;color:#000;}
 	.top .tl li a:hover{color:red;cursor: pointer;}
-	.top .tl li a span{display:block;font:12px/18px "";}
+	.top .tl li a span{font:12px/18px "";}
 	.top .tl li a span .ti1{margin-left:5px;}
 	.top .tl li a span .ti2{height:18px;margin-right:6px;}
 	
 	.top .tr{float:right;height:40px;text-align:center;}
-	.top .tr li{float:left;margin-right:15px;height:40px;}
-	.top .tr li a{display:block;margin-top:10px;color:#000;}
-	.top .tr li a span{display:block;font:12px/18px "";}
-	.top .tr li a span.register{color:red;}
-	.top .tr li a span.h:hover{color:red;cursor: pointer;}
+	.top .tr .p1 .h{color:red;}
+	.top .tr .p2{display:none;}
+	.top .tr .p2 span{color:#5BA9F5;margin:0 5px;font-weight:900}
+
 /*头部*/
 header{height:110px;position:relative;z-index:0}
 	header #logo{display:block;width:210px;height:110px;background:url(../img/logo_yaahe.jpg) no-repeat;text-indent: -9999em;overflow:hidden;float:left;}

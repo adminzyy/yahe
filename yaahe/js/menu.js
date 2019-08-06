@@ -39,57 +39,6 @@ $(function(){
 
 
 // 选项卡
-
-
-/*
-.cont ul{padding: 0;list-style: none;width: 100%;height: 30px;display: flex;line-height: 30px;text-align: center;border-bottom: solid 1px black;margin: 0;}
-			.cont ul li{margin: 0;flex: 1;border-left: solid 1px black;border-right: solid 1px black;}
-			.cont ul li.active{background: pink;}
-			
-			.box{height: 369px;}
-			.box p{margin: 0;height: 369px;display: none;}
-			.box p:nth-child(1){background: #f00;display: block;}
-			.box p:nth-child(2){background: #f0f;}
-			.box p:nth-child(3){background: #ff0;}
-		</style>
-	</head>
-	<body>
-		<div class="cont">
-			<ul>
-				<li class="active">1</li>
-				<li>2</li>
-				<li>3</li>
-			</ul>
-			<div class="box">
-				<p>段落1</p>
-				<p>段落2</p>
-				<p>段落3</p>
-			</div>
-		</div>
-	</body>
-	<script type="text/javascript">
-		var ali = document.querySelectorAll(".cont li");
-		var ap = document.querySelectorAll(".cont p");
-		
-		for(var i=0;i<ali.length;i++){
-			ali[i].index = i;
-			ali[i].onclick = function(){
-				
-//				点击事件中拿不到i
-//				更拿不到ali[i]
-				
-				for(var j=0;j<ali.length;j++){
-					ali[j].className = "";
-					ap[j].style.display = "none";
-				}
-				
-//				通过this找当前
-				this.className = "active";
-				
-				ap[this.index].style.display = "block";
-			}
-		}
-*/
 	var ali = document.querySelectorAll(".contactlenses li");
 	var ah = document.querySelectorAll(".contactlenses h3");
 
@@ -120,3 +69,23 @@ $(function(){
 			
 		}
 	}
+
+
+// index
+// 立即读取状态，判断是否登录，做出对应处理
+var msg = localStorage.getItem("loginUser");
+if(msg){
+	$(".p1").hide();
+	$(".p2").show();
+	$(".p2").find("span").html(JSON.parse(msg).user);
+}else{
+	$(".p1").show();
+	$(".p2").hide();
+}
+
+// 点击退出时,修改登录状态
+$(".p2").find("a").click(function(){
+	localStorage.removeItem("loginUser");
+	$(".p1").show();
+	$(".p2").hide();
+})

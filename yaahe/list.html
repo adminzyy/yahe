@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .cont{width:1000px;border:solid 1px black;overflow: hidden;margin: 0 auto}
+        .cont .box{float: left;width:250px;border: solid 1px black;box-sizing: border-box;text-align: center;}
+        .box img{width:80%;height:160px;}
+        .box span,.box em,.box i{display: block;}
+        .box p{margin: 10px 0;line-height:20px;height:20px;overflow: hidden;}
+        .box i{margin:10px auto 0;background:red;width:100px;height:30px;line-height:30px;color: #fff;}
+    </style>
+</head>
+<body>
+    <h2>这是商品列表页面<small><a href="car.html">去结算</a></small></h2>
+    <div class="cont">
+        <p>当前商品已卖完，请稍候再来......</p>
+        <!-- <div class="box">
+            <img src="images/1.jpg" alt="">
+            <span>商品1</span>
+            <p>23.99</p>
+            <em>好用1</em>
+            <i>加入购物车</i>
+        </div> -->
+    </div>
+</body>
+<script src="libs/ajax.js"></script>
+<script src="libs/cookie.js"></script>
+<script src="js/list.js"></script>
+</html>

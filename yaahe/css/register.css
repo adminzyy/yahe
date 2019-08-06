@@ -1,0 +1,70 @@
+@charset "utf-8";
+.w{width:1210px;margin:0 auto;}
+/*顶部*/
+.top{width:100%;height:40px;background:#ccc;background:url(../img/tb1.jpg) repeat bottom;}
+	.top .w{height:40px;}
+	.top .tl{float:left;height:40px;text-align:center;}
+	.top .tl li{float:left;margin-right:15px;height:40px;}
+	.top .tl li a{display:block;margin-top:10px;color:#000;}
+	.top .tl li a:hover{color:red;cursor: pointer;}
+	.top .tl li a span{display:block;font:12px/18px "";}
+	.top .tl li a span .ti1{margin-left:5px;}
+	.top .tl li a span .ti2{height:18px;margin-right:6px;}
+	
+	.top .tr{float:right;height:40px;text-align:center;}
+	.top .tr li{float:left;margin-right:15px;height:40px;}
+	.top .tr li a{display:block;margin-top:10px;color:#000;}
+	.top .tr li a span{display:block;font:12px/18px "";}
+	.top .tr li a span.register{color:red;}
+	.top .tr li a span.h:hover{color:red;cursor: pointer;}
+/*头部*/
+header{height:110px;position:relative;z-index:0}
+	header #logo{display:block;width:210px;height:110px;background:url(../img/logo_yaahe.jpg) no-repeat;text-indent: -9999em;overflow:hidden;float:left;}
+    header .wel{float:left;height:48px;line-height: 48px;margin-top: 33px;font-size: 22px;color:#000;border-left: 1px solid #E0E0E0;padding-left: 10px;margin-left: 10px;}
+
+/* 主体部分 */
+
+main ul{margin-top:10px;margin-bottom:10px;width:500px;height:600px;border:1px solid black;color:#fff;padding:30px;}
+main ul li{height:50px;font-size:16px;line-height:50px;text-align: center;position: relative;}
+main ul li .box{height:100px;background:lightyellow;width:200px;margin-right:30px;font:12px/24px "";color:black;position: absolute;bottom:-418px;left:-22px;}
+main ul li b{display:block;float:left;width:180px;color:#000;height:50px;}
+main ul li input{display:block;float:right;width:300px;height:40px;}
+main #yanzheng{float:left;height:80px;margin-top:10px;}
+main #test{width:80px;float:left;margin-right:30px;}
+main #rand{width:100px;background:#bbb;float:left;border:1px solid #000;height:45px;text-align: center;}
+main ul li p{height:50px;margin-top:49px;color:#000;}
+
+
+
+
+
+
+
+
+
+
+
+/*尾部*/
+footer{margin-top:25px;padding-bottom:10px;position:relative;bottom:0;}
+footer .service{display:block;width:1208px;height:90px;border:1px solid #e1e1e1;background:#fff;}	
+footer .service li{display:block;width:300px;height:90px;float:left;}
+footer .service div{margin:27px auto;width:200px;}
+footer .service .f-box{overflow:hidden;zoom:1;}
+footer .service .f-box img{float:left;margin-top:2px;}
+footer .service .f-box p{width:120px;margin-left:10px;float:left;}
+footer .service .f-box b{font-size:16px;color:#000;}
+footer .service div span{display:inline-block;}
+footer .service .b-orange{font-size:16px;}
+footer .service .blue{color:#2572bf;}
+footer .service .orange{color:#ff7700;}
+footer .f-list{ border-bottom:1px dotted #c1c1c1;}
+footer .f-list .f-lists{ overflow:hidden;zoom:1; margin:30px auto; width:900px}
+footer .f-list ul{ float:left; width:160px; padding-left:20px}
+footer .f-list ul li{ font-size:13px; color:#636363; line-height:25px}
+footer .f-list h1{font-size:16px; color:#000}
+footer .f-nav{margin:30px auto;text-align:center;}
+footer .f-link a{ display:inline-block; margin-left:5px}
+footer .a-yaahe{ margin-top:20px; margin-bottom:10px}
+footer .a-yaahe a{ display:inline-block; width:70px}
+footer .copyright{ font-size:11px; margin-bottom:10px;line-height:24px;display:none;}
+.f-img img{ display:inline-block; margin-left:20px;}	
