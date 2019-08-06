@@ -89,6 +89,34 @@ $(function(){
 				ap[this.index].style.display = "block";
 			}
 		}
-
-
 */
+	var ali = document.querySelectorAll(".contactlenses li");
+	var ah = document.querySelectorAll(".contactlenses h3");
+
+	for(var i=0;i<ali.length;i++){
+		ali[i].index = i;
+		ali[i].onclick = function(){
+			for(var j=0;j<ali.length;j++){
+				ali[j].className = "";
+				ah[j].style.display = "none";
+			}
+			this.className = "active";
+			ah[this.index].style.display = "block";
+		}
+	}
+
+	var sli = document.querySelectorAll(".circlelenses li");
+	var sh = document.querySelectorAll(".circlelenses h3");
+
+	for(var i=0;i<sli.length;i++){
+		sli[i].index = i;
+		sli[i].onclick = function(){
+			for(var j=0;j<sli.length;j++){
+				sli[j].className = "";
+				sh[j].style.display = "none";
+			}
+			this.className = "active";
+			sh[this.index].style.display = "block";
+			
+		}
+	}
