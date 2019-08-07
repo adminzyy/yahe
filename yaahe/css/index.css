@@ -7,26 +7,30 @@
 	.top .tl{float:left;height:40px;text-align:center;}
 	.top .tl li{float:left;margin-right:15px;height:40px;}
 	.top .tl li a{display:block;margin-top:10px;color:#000;}
-	.top .tl li a:hover{color:red;cursor: pointer;}
+	.top .tl li a:hover{color:#ff7700;cursor: pointer;}
 	.top .tl li a span{font:12px/18px "";}
 	.top .tl li a span .ti1{margin-left:5px;}
 	.top .tl li a span .ti2{height:18px;margin-right:6px;}
 	
 	.top .tr{float:right;height:40px;text-align:center;}
-	.top .tr .p1 .h{color:red;}
+	.top .tr .p1 .h{color:#ff7700;}
 	.top .tr .p2{display:none;}
 	.top .tr .p2 span{color:#5BA9F5;margin:0 5px;font-weight:900}
 
 /*头部*/
 header{height:110px;position:relative;z-index:0}
-	header #logo{display:block;width:210px;height:110px;background:url(../img/logo_yaahe.jpg) no-repeat;text-indent: -9999em;overflow:hidden;float:left;}
-	header #giflogo{display:block;width:120px;height:110px;background:url(../img/giflogo_yaahe.gif) no-repeat;text-indent: -9999em;overflow:hidden;float:left;}
-	header #search{width:510px;height:110px;float:left;}
-	header #search .mt30{width:490px;height:38px;border:1px solid #ccc;background:#fff;position:relative;left:10px;position:relative;}
-	header #search .mt30 input.key{display:block;width:435px;height:38px;border:0px;text-indent:10px;font:14px/38px "";position:absolute;top:0px;left:0px;color:#666 !important}
-	header #search .mt30 input.submit{display:block;cursor:pointer;width:55px;height:40px;background:#5BA9F5;border:0px;position:absolute;right:0px;top:-1px;color:#fff;font:14px "";}
-	header #search .keyword{position:relative;left:10px;margin-top:3px;}
-	header #search .keyword a{color:#000;margin-right:10px;cursor:pointer}
+header #logo{display:block;width:210px;height:110px;background:url(../img/logo_yaahe.jpg) no-repeat;text-indent: -9999em;overflow:hidden;float:left;}
+header #giflogo{display:block;width:120px;height:110px;background:url(../img/giflogo_yaahe.gif) no-repeat;text-indent: -9999em;overflow:hidden;float:left;}
+header #search{width:510px;height:110px;float:left;}
+header #search .mt30{width:490px;height:38px;border:1px solid #ccc;background:#fff;position:relative;left:10px;position:relative;}
+header #search .mt30 input.key{display:block;width:435px;height:38px;border:0px;text-indent:10px;font:14px/38px "";position:absolute;top:0px;left:0px;color:#666 !important}
+header #search .mt30 input.submit{display:block;cursor:pointer;width:55px;height:40px;background:#5BA9F5;border:0px;position:absolute;right:0px;top:-1px;color:#fff;font:14px "";}
+header #search .keyword{position:relative;left:10px;margin-top:3px;}
+header #search .keyword a{color:#000;margin-right:10px;cursor:pointer;}
+header .last{width:150px;height:60px;background:#bde9f7;float:right;margin-top:25px;text-align: center;border-radius:6px;}
+header .last em{margin:5px;}
+header .car a{color:#fff;font:600 18px/3 "";}
+header .car{display:none;}
 
 /*导航栏*/	
 nav{width:100%;min-width:990px;height:36px;background:#469ef5;z-index:9;}
@@ -39,8 +43,6 @@ nav{width:100%;min-width:990px;height:36px;background:#469ef5;z-index:9;}
 	nav .w ul li a{display:block;color:#fff;padding:0px 12px;}
 	nav .w ul li a:hover{background:#2573bf;}
 	nav .w ul li.first{background:#2573bf;border-right:4px solid #3e8ddc;}
-	nav .w ul li.last{margin-left:138px;width:150px;}
-	nav .w ul li.last em{margin:5px;}
 	
 
 /*广告栏*/	
@@ -188,7 +190,7 @@ nav{width:100%;min-width:990px;height:36px;background:#469ef5;z-index:9;}
 .care .careb .carer dd{overflow:hidden;zoom:1;line-height:32px;width:170px;}
 .care .careb .weixin{width:265px;height:300px;float:left;}
 
-
+.mango{width:100%;height:10px;background:#fff;}
 /*尾部*/
 footer{margin-top:25px;padding-bottom:10px;position:relative;bottom:0;}
 footer .service{display:block;width:1208px;height:90px;border:1px solid #e1e1e1;background:#fff;}	

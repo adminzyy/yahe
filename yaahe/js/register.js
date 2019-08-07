@@ -36,8 +36,8 @@ class Login{
                 // console.log(res);
                 if(res.code == 0){
                     
-                    this.state.html("注册失败，请重新注册");
-
+					this.state.html("注册失败，请重新注册");
+					// console.log(usr,pass,tel,email)
                 }else if(res.code == 1){
                     
                     this.state.html("注册成功，5秒后跳转到<a href='login.html'>登录</a>");

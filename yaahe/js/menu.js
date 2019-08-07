@@ -77,10 +77,14 @@ var msg = localStorage.getItem("loginUser");
 if(msg){
 	$(".p1").hide();
 	$(".p2").show();
+	//
+	$(".car").show();
 	$(".p2").find("span").html(JSON.parse(msg).user);
 }else{
 	$(".p1").show();
 	$(".p2").hide();
+	//
+	$(".car").hide();
 }
 
 // 点击退出时,修改登录状态
@@ -88,4 +92,6 @@ $(".p2").find("a").click(function(){
 	localStorage.removeItem("loginUser");
 	$(".p1").show();
 	$(".p2").hide();
+	//
+	$(".car").hide();
 })

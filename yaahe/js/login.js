@@ -6,7 +6,7 @@ class Login{
         this.user = $("#user");
         this.pass = $("#pass");
         this.btn = $("#btn");
-        this.state = $("p span");
+        this.state = $(".log p span");
         // 绑定点击事件
         this.addEvent();
     }
