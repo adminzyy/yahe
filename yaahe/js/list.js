@@ -20,25 +20,13 @@ class List{
         })
     }
     setCookie(){
-        // console.log(this.id)
-        // S1.规划数据的格式
-        // 同一个商品点击多次
-        // {id:this.id,num:4}
-        // 不同的商品点击多次
-        // 只有一条cookie，保存了所有商品
-        // [{id:this.id,num:2},{id:this.id,num:4},....]
-        // S2.第一次存和之后存,只有一条cookie
-        // 先读取
         this.goods = getCookie("goods") ? JSON.parse(getCookie("goods")) : [];
         if(this.goods.length == 0){
-            // 第一次:直接写数组,数组中放一个对象
             this.goods.push({
                 id:this.id,
                 num:1
             })
         }else{
-            // 之后存:新商品和老商品
-            // 先遍历,比较
             var i = 0;
             var onoff = this.goods.some((val,index)=>{
                 i = index;
@@ -68,7 +56,6 @@ class List{
         })
     }
     display(){
-        // console.log(this.res);
         var str = "";
         this.res.forEach((val)=>{
             str += `<div class="box" qwe="${val.goodsId}">
@@ -84,3 +71,4 @@ class List{
 }
 
 new List;
+

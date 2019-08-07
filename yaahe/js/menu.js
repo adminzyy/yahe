@@ -95,3 +95,17 @@ $(".p2").find("a").click(function(){
 	//
 	$(".car").hide();
 })
+
+// 吸顶
+window.addEventListener("scroll", this.handleScroll);
+    
+function handleScroll() {
+	var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+	var ceilOffsettop=document.querySelector(".ceilingbox").offsetTop
+	if(scrollTop >=690) {
+		$(".ceilingbox").css("display","block").addClass("fixed")
+		console.log(ceilOffsettop)
+	} else {
+		$(".ceilingbox").removeClass("fixed").css("display","none")
+	}
+}

@@ -1,0 +1,75 @@
+@charset "utf-8";
+.w{width:1210px;margin:0 auto;}
+/*顶部*/
+.top{width:100%;height:40px;background:#ccc;background:url(../img/tb1.jpg) repeat bottom;}
+	.top .w{height:40px;}
+	.top .tl{float:left;height:40px;text-align:center;}
+	.top .tl li{float:left;margin-right:15px;height:40px;}
+	.top .tl li a{display:block;margin-top:10px;color:#000;}
+	.top .tl li a:hover{color:red;cursor: pointer;}
+	.top .tl li a span{display:block;font:12px/18px "";}
+	.top .tl li a span .ti1{margin-left:5px;}
+	.top .tl li a span .ti2{height:18px;margin-right:6px;}
+	
+	.top .tr{float:right;height:40px;text-align:center;}
+	.top .tr li{float:left;margin-right:15px;height:40px;}
+	.top .tr li a{display:block;margin-top:10px;color:#000;}
+	.top .tr li a span{display:block;font:12px/18px "";}
+	.top .tr li a span.register{color:red;}
+	.top .tr li a span.h:hover{color:red;cursor: pointer;}
+
+/*头部*/
+header{height:110px;position:relative;z-index:0}
+	header #logo{display:block;width:210px;height:110px;background:url(../img/logo_yaahe.jpg) no-repeat;text-indent: -9999em;overflow:hidden;float:left;}
+	header #giflogo{display:block;width:120px;height:110px;background:url(../img/giflogo_yaahe.gif) no-repeat;text-indent: -9999em;overflow:hidden;float:left;}
+	header #search{width:510px;height:110px;float:left;}
+	header #search .mt30{width:490px;height:38px;border:1px solid #ccc;background:#fff;position:relative;left:10px;position:relative;}
+	header #search .mt30 input.key{display:block;width:435px;height:38px;border:0px;text-indent:10px;font:14px/38px "";position:absolute;top:0px;left:0px;color:#666 !important}
+	header #search .mt30 input.submit{display:block;cursor:pointer;width:55px;height:40px;background:#5BA9F5;border:0px;position:absolute;right:0px;top:-1px;color:#fff;font:14px "";}
+	header #search .keyword{position:relative;left:10px;margin-top:3px;}
+	header #search .keyword a{color:#000;margin-right:10px;cursor:pointer}
+
+/* 列表 */
+main{position: relative;}
+main h2{width:100px;height:24px;border: 1px solid #e1e1e1;background:rgb(200, 224, 240);position: fixed;top: 50%; right:80px;z-index: 999;margin-top:-20px;border-radius:6px;text-align:center;}
+.cont{width:1000px;border:1px solid #e1e1e1;overflow: hidden;margin: 0 auto}
+.cont .box{float: left;width:250px;border:1px solid #e1e1e1;box-sizing: border-box;text-align: center;}
+.box img{width:80%;height:160px;}
+.box span,.box em,.box i{display: block;font:12px/14px "";}
+.box p{margin: 10px 0;line-height:20px;height:20px;overflow: hidden;font:600 16px/18px "";color:#ff7700;}
+.box i{margin:10px auto 0;background:#ff7700;width:100px;height:30px;line-height:30px;color: #fff;cursor: pointer;}
+
+main .pagWarp{width:500px;height: 40px;box-shadow: 0 2px 5px #b6b6b6;margin:0 auto;margin-top:10px;}
+#btnL,#btnR{line-height:40px;cursor:pointer;font:16px/3 ""}
+#btnL{float: left;}
+#btnR{float: right;}
+.pagWarp ul{height: 40px;margin: 0 auto;float: left;text-align: center;padding-left: 40px;padding-right: 40px;}
+.pagWarp ul li{float: left;text-align: center;line-height: 40px;padding: 0 4px;}
+.active{color: blue;font-size: 30px;}
+
+
+.mango{width:100%;height:100px;background:#fff;}
+/*尾部*/
+footer{margin-top:25px;padding-bottom:10px;position:relative;bottom:0;}
+footer .service{display:block;width:1208px;height:90px;border:1px solid #e1e1e1;background:#fff;}	
+footer .service li{display:block;width:300px;height:90px;float:left;}
+footer .service div{margin:27px auto;width:200px;}
+footer .service .f-box{overflow:hidden;zoom:1;}
+footer .service .f-box img{float:left;margin-top:2px;}
+footer .service .f-box p{width:120px;margin-left:10px;float:left;}
+footer .service .f-box b{font-size:16px;color:#000;}
+footer .service div span{display:inline-block;}
+footer .service .b-orange{font-size:16px;}
+footer .service .blue{color:#2572bf;}
+footer .service .orange{color:#ff7700;}
+footer .f-list{ border-bottom:1px dotted #c1c1c1;}
+footer .f-list .f-lists{ overflow:hidden;zoom:1; margin:30px auto; width:900px}
+footer .f-list ul{ float:left; width:160px; padding-left:20px}
+footer .f-list ul li{ font-size:13px; color:#636363; line-height:25px}
+footer .f-list h1{font-size:16px; color:#000}
+footer .f-nav{margin:30px auto;text-align:center;}
+footer .f-link a{ display:inline-block; margin-left:5px}
+footer .a-yaahe{ margin-top:20px; margin-bottom:10px}
+footer .a-yaahe a{ display:inline-block; width:70px}
+footer .copyright{ font-size:11px; margin-bottom:10px;line-height:24px;display:none;}
+.f-img img{ display:inline-block; margin-left:20px}	

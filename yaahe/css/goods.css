@@ -141,12 +141,6 @@ nav{width:100%;min-width:990px;height:36px;background:#469ef5;z-index:9;}
 .proinfo .proinfo-right .wx .wx_code em{ display:block;font-size:14px;}
 .proinfo .proinfo-right .wx .wx_code em{ font-size:16px; color:#f00;}
 
-.cont{width:1000px;border:solid 1px black;overflow: hidden;margin: 0 auto}
-        .cont .box{float: left;width:250px;border: solid 1px black;box-sizing: border-box;text-align: center;}
-        .box img{width:80%;height:160px;}
-        .box span,.box em,.box i{display: block;}
-        .box p{margin: 10px 0;line-height:20px;height:20px;overflow: hidden;}
-        .box i{margin:10px auto 0;background:red;width:100px;height:30px;line-height:30px;color: #fff;}
 
 
 
