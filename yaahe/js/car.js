@@ -65,19 +65,23 @@ class Car{
     }
     display(){
         var str = "";
+        var settlement = 0;
         // 遍历所有数据
         this.res.forEach((resVal)=>{
             // 遍历cookie中的数据
             this.goods.forEach((goodsVal)=>{
                 // 比较,一致,渲染对应数据
+                // console.log(settlement);
                 if(resVal.goodsId == goodsVal.id){
+                    settlement = resVal.price*goodsVal.num;
                     str += `<tr index="${resVal.goodsId}">
-                                <td><img src="${resVal.url}"></td>
-                                <td>${resVal.name}</td>
-                                <td>${resVal.price}</td>
-                                <td><input class="num" type="number" value="${goodsVal.num}" min=1></td>
-                                <td class="del">删除</td>
-                            </tr>`;
+                        <td><img src="${resVal.url}"></td>
+                        <td>${resVal.name}</td>
+                        <td>${resVal.price}</td>
+                        <td><input class="num" type="number" value="${goodsVal.num}" min=1></td> 
+                        <td>${settlement}</td>
+                        <td class="del">删除</td>
+                    </tr>`;
                 }
             })
         })

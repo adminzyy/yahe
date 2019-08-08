@@ -1,11 +1,24 @@
 //menu
 $(document).on("mouseenter", ".level1 dd", function () {
-		$(this).addClass("active").parents(".level1").siblings(".level2").show();
-		// $(this).css({ background: "#F5F5F8" })
+		$(this).addClass("active").parents(".level1").siblings(".level2").show().stop().animate({},500);
+		$(this).addClass("active").css({background: "#F5F5F8"}).siblings("dd").css({background:""})
 	}).on("mouseleave", ".catebox", function () {
-		$(this).removeClass("active").children(".level2").hide();
-		// $(".level1 dd").css({ background:null });
+		$(this).removeClass("active").children(".level2").hide().stop().animate({},500);
+		$("dd").css({background:""});
 });
+
+// $().ready(function () {
+//     $(".level1 dd").mouseover(function () {
+//         var _index = $(this).index();
+//         $(".level2>div").eq(_index).show().siblings().hide();
+//         $(this).addClass("active").siblings().removeClass("active");
+//     });
+//     $(".catebox").on("mouseleave", function () {
+//         $(".level2 div").css({
+//             "display":"none",
+//         })
+//     })
+// });
 
 
 //banner
@@ -17,11 +30,11 @@ $(".banner1").banner({
 	autoPlay:true,                          
 	delayTime:2000,                         
 	moveTime:200,                          
-	index:0,                               
-})
+	index:1,                               
+});
 
 //floor
-$(function(){
+;$(function(){
    $(".storey li").click(function(){
 		$(document).scrollTop($(".floor").eq($(this).index()).offset().top)
 	})
@@ -35,7 +48,7 @@ $(function(){
 			background:""
 		})
 	})
-})
+});
 
 
 // 选项卡
@@ -66,7 +79,6 @@ $(function(){
 			}
 			this.className = "active";
 			sh[this.index].style.display = "block";
-			
 		}
 	}
 

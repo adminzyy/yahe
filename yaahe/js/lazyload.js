@@ -14,7 +14,7 @@ function lazyload(){
     var scrollT = document.documentElement.scrollTop;
     var clientH = document.documentElement.clientHeight;
     for(var i=0;i<arr.length;i++){
-        console.log(`i:${i}`);
+        // console.log(`i:${i}`);
         if(arr[i].offsetTop - scrollT < clientH){
             arr[i].src = arr[i].getAttribute("lazy");
             // 小心使用：在循环中修改了循环次数
