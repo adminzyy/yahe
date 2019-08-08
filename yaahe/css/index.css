@@ -81,7 +81,7 @@ nav{width:100%;min-width:990px;height:36px;background:#469ef5;z-index:9;}
 .focus .level1 dd p{display:block;width:220px;height:24px;line-height:24px;font-size:12px;position:absolute;top:34px;text-indent:30px;color:#666;}
 .focus .level1 dd p a{color:#666;margin-right:3px;}
 .focus .level1 dd p a:hover{color:#333;}
-.focus .level2{background:#fff;width:765px;height:479px;overflow: hidden;border-width:0 1px 1px 0;border-color: #ccc;border-style:solid;float: left;display:none;}
+.focus .level2{background-color:rgba(255,255,255,0.5);width:765px;height:479px;overflow: hidden;border-width:0 1px 1px 0;border-color: #ccc;border-style:solid;float: left;display:none;}
 .focus .level2 dd h1{line-height:9px;}
 .focus .level2 dd ul{width:400px;height:479px;font-size:12px;position:absolute;top:34px;text-indent:30px;color:#666;}
 .focus .level2 dd ul li{line-height:24px;}

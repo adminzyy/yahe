@@ -20,3 +20,6 @@ var today=new Date(),//当前时间
     // setTimeout("clock()",500);
     setTimeout(clock,500);
 }
+
+
+
