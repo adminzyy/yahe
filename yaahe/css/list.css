@@ -28,6 +28,17 @@ header{height:110px;position:relative;z-index:0}
 	header #search .mt30 input.submit{display:block;cursor:pointer;width:55px;height:40px;background:#5BA9F5;border:0px;position:absolute;right:0px;top:-1px;color:#fff;font:14px "";}
 	header #search .keyword{position:relative;left:10px;margin-top:3px;}
 	header #search .keyword a{color:#000;margin-right:10px;cursor:pointer}
+	/* <div class="cont">
+	<p>当前商品已卖完，请稍候再来......</p>
+	<!-- <div class="box">
+		<img lazy="images/1.jpg" alt="">
+		<span>商品1</span>
+		<p>23.99</p>
+		<em>好用1</em>
+		<i>加入购物车</i>
+	</div> -->
+</div> */
+
 
 /* 列表 */
 main{position: relative;}
@@ -38,6 +49,7 @@ main h2{width:100px;height:24px;border: 1px solid #e1e1e1;background:rgb(200, 22
 .box span,.box em,.box i{display: block;font:12px/14px "";}
 .box p{margin: 10px 0;line-height:20px;height:20px;overflow: hidden;font:600 16px/18px "";color:#ff7700;}
 .box i{margin:10px auto 0;background:#ff7700;width:100px;height:30px;line-height:30px;color: #fff;cursor: pointer;}
+
 
 main .pagWarp{width:500px;height: 40px;box-shadow: 0 2px 5px #b6b6b6;margin:0 auto;margin-top:10px;}
 #btnL,#btnR{line-height:40px;cursor:pointer;font:16px/3 ""}

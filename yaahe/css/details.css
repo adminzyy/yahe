@@ -26,7 +26,7 @@ header{height:110px;position:relative;z-index:0}
 	header #search .mt30 input.key{display:block;width:435px;height:38px;border:0px;text-indent:10px;font:14px/38px "";position:absolute;top:0px;left:0px;color:#666 !important}
 	header #search .mt30 input.submit{display:block;cursor:pointer;width:55px;height:40px;background:#5BA9F5;border:0px;position:absolute;right:0px;top:-1px;color:#fff;font:14px "";}
 	header #search .keyword{position:relative;left:10px;margin-top:3px;}
-	header #search .keyword a{color:#000;margin-right:10px;cursor:pointer}
+	header #search .keyword a{color:#000;margin-right:10px;cursor:pointer;}
 
 /*导航栏*/	
 nav{width:100%;min-width:990px;height:36px;background:#469ef5;z-index:9;}
